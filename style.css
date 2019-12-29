@@ -1,0 +1,291 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    background: black;
+}
+
+.nav-box {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 2em 0;
+    text-transform: uppercase;
+    margin-left: auto;
+    float: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    transition: 400ms ease-in;
+}
+
+.nav li a:hover {
+    color: darkgray;
+}
+
+.header-image-description {
+    position: absolute;
+    top: 15em;
+    left: 10em;
+    width: 30%;
+}
+
+.header-image-description p {
+    font-size: 3em;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.header-image-description p .myname {
+    font-weight: bold;
+}
+
+.header-image-description p .pink {
+    transition: 400ms;
+}
+
+.header-image-description:hover p .pink {
+    color: pink;
+}
+
+.external-resume {
+    padding: 2em 0;
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.external-resume li {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+}
+
+.external-resume li img {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20%;
+    transition: 400ms;
+}
+
+.external-resume li img:hover {
+    transform: scale(1.2);
+}
+
+.header-image-content {
+    width: 940px;
+    margin: 0 0 0 auto;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.about {
+    background: #222222;
+}
+
+.about-box {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main-title {
+    padding: 1em 0 1em 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    clear: left;
+}
+
+.about-box {
+    padding: 0 0 5em 0;
+}
+
+.about-box p {
+    color: whitesmoke;
+    font-size: 22px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.about-box .avatar {
+    float: left;
+    margin: 0 3em 2em 0;
+    width: 30%;
+    text-align: center;
+}
+
+.about-box img {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 400ms;
+}
+
+.about-box .avatar-name {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: gray;
+}
+
+.about-box .avatar-description {
+    color: gray;
+}
+
+.about-box img:hover {
+    opacity: 30%;
+}
+
+.about-description {
+    padding-bottom: 5em;
+}
+
+.portfolio {
+    background: black;
+}
+
+.portfolio-box {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 5em 0;
+}
+
+.projects li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    text-align: center;
+    border: 2px solid gray;
+    background: #222222;
+    transition: 400ms;
+    vertical-align: top;
+}
+
+.projects li:hover {
+    border-color: whitesmoke;
+    transform: scale(1.05);
+}
+
+.projects li h2 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .5em auto;
+    width: 80%;
+}
+
+.projects li p {
+    color: whitesmoke;
+    margin: 1em 1em;
+}
+
+.projects li img {
+    max-width: 60%;
+    padding: 1em 0;
+    max-height: 170px;
+}
+
+.skills {
+    background: black;
+}
+
+.skills-box {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+.skill-list li {
+    text-decoration: none;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 1.5em;
+    width: 16%;
+    text-align: center;
+    padding: 1.1em 0;
+    transition: 400ms;
+}
+
+.skill-list li:hover {
+    transform: scale(1.5);
+}
+
+.contact {
+    background: #222222;
+}
+
+.contact-box {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+.contact-box label {
+    color: whitesmoke;
+    font-size: 22px;
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 20%;
+}
+
+.contact-box .default-input {
+    margin-left: 20%;
+    display: block;
+    width: 60%;
+    margin-bottom: 2em;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.contact-box .default-input:hover {
+    border: 2px solid #6699cc;
+}
+
+.submit {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid gray;
+    width: 65%;
+    margin-left: 20%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: 400ms;
+}
+
+.submit:hover {
+    background-color: gray;
+}
+
+.map {
+    padding: 5em 0 2em 0;
+    width: 100%;
+}
+
+footer {
+    background: url("bg.jpg");
+    padding: 6em 0;
+}
+
+footer p {
+    font-size: 13px;
+    text-align: center;
+    color: whitesmoke;
+}

@@ -1,1 +1,133 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Matheus Rosa</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Puritan&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="nav-box">
+                <ul class="nav">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Curriculum</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="header-image-content">
+                <div class="header-image-description">
+                    <p>Olá Mundo! Meu nome é <strong class="myname">Matheus <span class="pink">Rosa</span></strong>! Sou um desenvolvedor Fullstack.</p>
+                    <ul class="external-resume">
+                        <li>
+                            <a href="https://www.linkedin.com/in/matheus-de-almeida-rosa-24b47a111" target="blank"><img src="linkedin.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/matheus-almeida-rosa" target="blank"><img src="github.png"></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <img class="header-image" src="header.jpg">
+            </div>
+        </header>
+        <main>
+            <section id="about" class="about">
+                <div class="about-box">
+                    <h1 class="main-title">Sobre mim</h1>
+                    <div class="avatar">
+                        <img src="me.jpg">
+                        <p class="avatar-name">Matheus Rosa</p>
+                        <p class="avatar-description">Desenvolvedor Fullstack</p>
+                    </div>
+                    <div class="about-description">
+                        <p>
+
+                            Meu nome é Matheus de Almeida Rosa, tenho 24 anos. Sou apaixonado por programação de computadores, videogames e esportes. 
+                            Formado em Engenharia de Computação pelo CEFET-MG em 2019, trabalho atualmente na TAKE, como especialista no desenvolvimento de Chatbots utilizando a plataforma BLiP.
+                            Nas horas vagas gosto de aprender mais sobre programação. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="portfolio">
+                <div class="portfolio-box">
+                    <h1 class="main-title">Projetos</h1>
+                    <ul class="projects">
+                        <a href="https://github.com/matheus-almeida-rosa/fake-news" target="blank">
+                            <li>
+                                <h2>Identificação de Fake News</h2>
+                                <img src="python.png">
+                                <p>Aplicação de Machine Learning na identificação de Fake News</p>
+            
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <h2>Página pessoal Esta página</h2>
+                                <img src="html5.png">
+                                <p>Página pessoal criada com HTML5 e CSS3</p>
+                            </li>
+                        </a>
+                        <a href="https://github.com/matheus-almeida-rosa/competitive-programming" target="blank">
+                            <li>
+                                <h2>Programação Competitiva</h2>
+                                <img src="c++.png">
+                                <p>Problemas resolvidos para Maratona de Programação</p>
+                            </li>
+                        </a>
+                    </ul>
+            
+                </div>
+            </section>
+            
+            <section 
+            id="skills" class="skills">
+                <div class="skills-box">
+                    <h1 class="main-title">Habilidades</h1>
+                    <ul class="skill-list">
+                        <li>C#</li>
+                        <li>.Net</li>
+                        <li>ASPNet</li>
+                        <li>C++ STL</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Docker</li>
+                       
+                        <li>Kubernets</li>
+                        <li>Azure</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="contact-box">
+                    <h1 class="main-title">Contato</h1>
+                    <form>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" class="default-input">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="default-input">
+
+                        <label for="text">Mensagem</label>
+                        <textarea type="text" name="text" id="text" rows="10" class="default-input"></textarea>
+
+                        <input type="submit" value="Enviar Mensagem" class="submit">
+                    </form>
+
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.8202995427705!2d-43.94019594910977!3d-19.93197604345308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699dc336346fb%3A0x6cd7a529d18b722b!2sPra%C3%A7a%20da%20Liberdade!5e0!3m2!1spt-BR!2sbr!4v1577646686957!5m2!1spt-BR!2sbr" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Copyright - Matheus de Almeida Rosa</p>
+        </footer>
+    </body>
+</html>>
