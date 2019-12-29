@@ -158,6 +158,12 @@ header {
     padding-bottom: 5em;
 }
 
+.about-description a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
 .portfolio {
     background: black;
 }
@@ -255,7 +261,7 @@ header {
     border-radius: 4px;
 }
 
-.contact-box .default-input:hover {
+.contact-box .default-input:focus {
     border: 2px solid #6699cc;
 }
 
