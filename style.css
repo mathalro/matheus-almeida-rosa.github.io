@@ -295,3 +295,49 @@ footer p {
     text-align: center;
     color: whitesmoke;
 }
+
+@media screen and (max-width: 480px) {
+
+    .nav-box, .nav-box ul, .header-image-content, .about-box, .portfolio-box, .skills-box, .contact-box {
+        width: auto;
+    }
+
+    .nav {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav li {
+        width: 80%;
+        padding: 1em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header-image-description {
+        position: static;
+        width: 100%;
+    }
+
+    .projects {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-box .avatar, .about-box .about-description {
+        width: 80%;
+        margin: 0 auto 1em 2em;
+        text-align: center;
+    }
+    
+    .projects li {
+        width: 80%;
+        margin: 0 auto 1em 2em;
+    }
+
+    .skill-list li {
+        width: 80%;
+        margin: 0 auto 1em 1em;
+    }
+}
